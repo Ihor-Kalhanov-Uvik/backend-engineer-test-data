@@ -37,12 +37,16 @@ Install requirements
 
 ![plot](docs/result_data_table.png)
 
-<h3>Algorithm of program</h3>
 
 <p>Before working with our data, we prepare it. We sort all our data by "Department Name", as each of our fields has this data. Then we start processing data.  
-Since the names are already sorted, we follow the name change, as soon as there is a change, we write it in the dictionary. Now we just write it in .csv file
-</p>
+ Since the names are already sorted, we follow the name change, as soon as there is a change, we write it into the output file with calculated sum.</p>
 
 
 
+<h3>Complexity of the algorithm</h3>
+The most complex is the first step of soritng intial file. To do this we use external lib which handles "externa sorting" approach for us.
+ It's a known problem and it has complexity according to 
+![plot](docs/formula.svg)
 
+ https://en.wikipedia.org/wiki/External_sorting.
+ Once file is sorted all we have to do is to scan through file and properly count sum for each departmnet which roghly gets us to additianl  4N opertions to create output file.

@@ -6,7 +6,26 @@
 git clone https://github.com/Ihor-Kalhanov-Uvik/backend-engineer-test-data.git
 
 cd backend-engineer-test-data/
+
+pip install virtualenv
+
+virtualenv venv
 ````
+For Mac OS / Linux
+```
+source venv/bin/activate
+````
+
+For Windows
+```
+venv\Scripts\activate
+````
+
+Install requirements
+```
+ pip install -r requirements.txt 
+````
+
 
 <h3>How it work</h3>
 * Create or write your data to a file: 'data.csv' (`it is important`)

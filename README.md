@@ -1,13 +1,13 @@
 # Backend Engineer Test
 
 <h3>How to install </h3>
-```
 
+```
 git clone https://github.com/Ihor-Kalhanov-Uvik/backend-engineer-test-data.git
 
 cd backend-engineer-test-data/
+````
 
-```
 <h3>How it work</h3>
 * Create or write your data to a file: 'data.csv' (`it is important`)
 

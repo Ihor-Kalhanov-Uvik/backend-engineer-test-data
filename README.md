@@ -27,7 +27,7 @@ Install requirements
 ````
 
 
-<h3>How it work</h3>
+<h3>How it works</h3>
 * Create or write your data to a file: 'data.csv' (`it is important`)
 
 ![plot](docs/main_csv.png)

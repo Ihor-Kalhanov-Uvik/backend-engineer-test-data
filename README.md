@@ -50,5 +50,15 @@ The most complex is the first step of soritng intial file. To do this we use ext
 
 ![plot](docs/formula.png)
 
+
  https://en.wikipedia.org/wiki/External_sorting.
  Once file is sorted all we have to do is to scan through file and properly count sum for each departmnet which roghly gets us to additianl  4N opertions to create output file.
+
+<h3>Other possible approaches</h3>
+
+We could use postgres database to do the heavy lifting for us.
+ General algorithm:
+* In python script create table: to represent csv fields
+* Using postgres COPY import that data into postgres from csv.
+* Perform postgres GROUP BY by Department with SUM and let the database do the heavy lifting. Store result into temp table
+* Export temp table into csv file

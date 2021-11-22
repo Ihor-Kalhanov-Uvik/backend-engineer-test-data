@@ -14,6 +14,8 @@ cd backend-engineer-test-data/
 ![plot](docs/main_csv.png)
 * Run python script `main.py`
 * After working the program you will see a new file in which the result of the task
+
+
 ![plot](docs/result_data_table.png)
 
 <h3>Algorithm of program</h3>

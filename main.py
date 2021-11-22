@@ -29,6 +29,7 @@ if __name__ == '__main__':
                         current_state_name = state_name
                     current_sales_sum += int(row[2])
 
-            writer.writerow([current_state_name, current_sales_sum])
+            if current_state_name:
+                writer.writerow([current_state_name, current_sales_sum])
 
     os.remove("sorted_by_name.csv")
